@@ -19,7 +19,7 @@ const obj1={
 function abcd(a,b,c,d,e){
     console.log(this,a,b,c,d,e);
 }
-abcd.call(obj1,[1,3,4,5,5])
+abcd.apply(obj1,[1,3,4,5,5])
 
 // bind
 const obj3 ={
